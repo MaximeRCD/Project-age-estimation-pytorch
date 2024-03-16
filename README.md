@@ -98,3 +98,18 @@ After evaluation, you can see something like this:
 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:08<00:00,  1.28it/s]
 test mae: 4.800
 ```
+#### Contribute 
+
+```` bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+````
+
+if some errors occurs : 
+
+```` bash
+sudo apt-get update
+sudo apt-get install libgl1-mesa-glx
+sudo apt-get install libglib2.0-dev
+````
