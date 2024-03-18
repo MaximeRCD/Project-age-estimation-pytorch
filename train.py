@@ -19,6 +19,10 @@ import pretrainedmodels.utils
 from model import get_model
 from dataset import FaceDataset
 from defaults import _C as cfg
+import ssl 
+ 
+# Disable SSL certificate verification
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def get_args():
